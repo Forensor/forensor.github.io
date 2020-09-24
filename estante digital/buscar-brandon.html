@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Estante digital</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+        <nav>
+            <div id="menu" onclick="mostrarMenu()">
+                <a href="#home"><img src="menu.svg" height="30px"></a>
+            </div>
+            <div id="header">
+                <p style="font-weight: bold;">ED</p>
+            </div>
+            <div id="sidepanel">
+                <ul>
+                    <li onclick="cerrarMenu()" style="background-color: rgb(75, 114, 165); color: black;">CERRAR</li>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li style="background-color: rgb(99, 135, 184);"><a href="buscar.html">BUSCAR LIBRO</a></li>
+                    <li><a href="coleccion.html">MI COLECCIÓN</a></li>
+                </ul>
+            </div>
+            <div id="bg"></div>
+        </nav>
+        <section>
+                <div style="text-align: center; background-color:rgb(221, 221, 235); padding: 20px;">
+                    <img src="brandon-sanderson.png"></center>
+                    <p><b>Sanderson, Brandon</b> (1975)</p>
+                    <br><p style="text-align: justify;">Brandon Sanderson, es un escritor estadounidense de literatura fantástica y ciencia ficción. Nacido en Nebraska, ​ es mormón​ y actualmente reside en Provo, Utah, con su mujer Emily, con la que contrajo matrimonio el 7 de julio de 2006.</p>
+                </div>
+                <div id="busqueda">
+                    <br><p style="text-align: center;">Mostrando sus libros</p>
+                    <br><table id="tablaBusqueda">
+                        <tr style="text-align: center; font-weight: bold; background-color: lightsteelblue;">
+                            <td>Título</td>
+                            <td>Autor</td>
+                            <td>Género</td>
+                            <td>Editorial</td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+        <script type="text/javascript" src="panel.js"></script>
+        <script type="text/javascript" src="bbdd.js"></script>
+        <script type="text/javascript" src="buscarBrandon.js"></script>
+    </body>
+</html>
