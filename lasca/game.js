@@ -9,9 +9,9 @@ var nmoves = 1; //The number of moves each one is doing
 //The array that will control game developing
 
 var board = [
-	2, 0, 0, 0,
-	0, 0, 0,
-	1, 1, 0, 0,
+	2, 2, 2, 2,
+	2, 2, 2,
+	2, 2, 2, 2,
 	0, 0, 0,
 	1, 1, 1, 1,
 	1, 1, 1,
