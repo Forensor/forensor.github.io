@@ -1,25 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-.nav{
-    width: 300px;
-    margin: 50px auto;
-    display: grid;
-    grid-auto-rows: 100px;
+#sidebar {
+  background-color: #1DA1F2;
+  position: fixed;
+  height: 100vh;
+  width: 20vw;
+  min-width: 130px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 20px;
+  color: white;
 }
-.nav a{
-    font-size: 72px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 1s ease;
-    color: black;
+#cross {
+  visibility: hidden;
+  height: 0px;
+  cursor: pointer;
+  text-align: right;
 }
-.nav div{
-    text-align: center;
+.name {
+  font-size: 4vw;
+  margin-top: 40px;
+  font-weight: bold;
+  width: 100%;
 }
-.nav div:hover a{
-    transition: color 1s ease;
-    color: steelblue;
+.description {
+  font-size: 2vw;
+  margin-top: 20px;
+  opacity: .5;
+}
+.contact {
+  margin-top: 60px;
+  text-align: center;
+  opacity: .5;
+}
+.content {
+  margin-left: calc(20vw + 40px);
+  padding: 20px;
+  min-width: 440px;
+}
+#menu-button {
+  background-color:  #1DA1F2;
+  visibility: hidden;
+  z-index: 2;
+  color: white;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50px;
+  line-height: 47.5px;
+  cursor: pointer;
+  left: 10px;
+  top: calc(100% - 60px);
+  opacity: .75;
+}
+.menu {
+  margin-top: 40px;
+}
+.menu ul{
+    display: inline;
+    list-style-type: none;
+    line-height: 40px;
+  }
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+.menu a:hover {
+  opacity: .5;
+}
+#room {
+  background-image: url('../room.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+@media screen and (max-width: 650px) {
+  .name {font-size: 26px;}
+  .description {font-size: 13px;}
+  .menu a {font-size: 20px;}
+  #sidebar {visibility: hidden;}
+  .contact a {font-size: 16px;}
+  .content {margin-left: 0px;}
+  #menu-button {visibility: visible;}
 }

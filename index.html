@@ -2,18 +2,36 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Álvaro Sánchez</title>
+        <title>About · Álvaro Sánchez</title>
         <meta name="description" content="Portfolio">
         <meta name="author" content="forensor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     </head>
     <body>
-        <div class="nav">
-            <div><a href="https://forensor.github.io/lasca/index.html">Lasca</a></div>
-            <div><a href="https://github.com/Forensor/mal3t">MAL3T</a></div>
-            <div><a href="https://github.com/Forensor">GitHub</a></div>
+        <div id="sidebar">
+            <div id="cross">X</div>
+            <p class="name">Álvaro <br />Sánchez</p>
+            <p class="description">Software development</p>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <a href="https://twitter.com/Forensor" title="@Forensor in Twitter">Twitter</a> ·
+                <a href="https://github.com/Forensor/lasca" title="Forensor in Github">Github</a> ·
+                <a href="https://www.linkedin.com/in/a3chess/" title="a3chess in LinkedIn">LinkedIn</a> ·
+                <a href="mailto:alvaro3chess@gmail.com" title="Send me a mail!">Mail</a>
+            </div>
         </div>
+        <div id="menu-button" onclick="openMenu">+</div>
+        <div class="content">
+            <div id="room"></div>
+        </div>
+        <script src="menu.js"></script>
     </body>
 </html>
