@@ -6,7 +6,7 @@
 #sidebar {
   background-color: #1DA1F2;
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 20vw;
   min-width: 130px;
   z-index: 1;
