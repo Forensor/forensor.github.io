@@ -8,7 +8,7 @@
   position: fixed;
   height: 100%;
   width: 20%;
-  min-width: 130px;
+  min-width: 150px;
   z-index: 1;
   top: 0;
   left: 0;
@@ -21,6 +21,7 @@
   height: 0px;
   cursor: pointer;
   text-align: right;
+  font-weight: bold;
 }
 .name {
   font-size: 4vw;
@@ -101,11 +102,11 @@
   height: 300px;
 }
 @media screen and (max-width: 650px) {
-  .name {font-size: 26px;}
-  .description {font-size: 13px;}
-  .menu a {font-size: 20px;}
+  .name {font-size: 36px;}
+  .description {font-size: 23px;}
+  .menu a {font-size: 30px;}
   #sidebar {visibility: hidden;}
-  .contact a {font-size: 16px;}
+  .contact a {font-size: 26px;}
   .content {margin-left: 0px;}
   #menu-button {visibility: visible;}
 }
