@@ -7,6 +7,7 @@ const openMenu = () => {
 
   button.style.visibility = 'hidden';
   sidebar.style.visibility = 'visible';
+  sidebar.style.width = '400px';
   cross.style.visibility = 'visible';
 };
 

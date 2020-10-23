@@ -8,7 +8,6 @@
   position: fixed;
   height: 100%;
   width: 20%;
-  min-width: 150px;
   z-index: 1;
   top: 0;
   left: 0;
@@ -119,12 +118,12 @@
   height: 300px;
 }
 @media screen and (max-width: 650px) {
-  .name {font-size: 36px;}
-  .description {font-size: 23px;}
-  .menu a {font-size: 30px;}
+  .name {font-size: 46px;}
+  .description {font-size: 33px;}
+  .menu a {font-size: 40px;}
   #sidebar {visibility: hidden;}
-  .contact a {font-size: 26px;}
-  .copyright {font-size: 10px;}
+  .contact a {font-size: 36px;}
+  .copyright {font-size: 20px;}
   .content {margin-left: 0px;}
   #menu-button {visibility: visible;}
 }
