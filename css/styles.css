@@ -34,26 +34,43 @@
   margin-top: 20px;
   opacity: .5;
 }
+.copyright {
+  margin-top: 40px;
+  font-size: 1vw;
+}
 .contact {
   margin-top: 60px;
   text-align: center;
-  opacity: .5;
+  opacity: .25;
+  background-color: black;
 }
 .content {
   margin-left: calc(20% + 40px);
   padding: 20px;
   min-width: 440px;
 }
+.content-title {
+  margin: 40px;
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
 .post {
   margin: 40px;
   text-align: justify;
   font-size: 20px;
 }
+.post-title {
+  font-size: 40px;
+  font-weight: bold;
+}
 .post a {
   text-decoration: none;
   font-weight: bold;
   color: #1DA1F2;
-  font-size: 20px;
+}
+.post a:hover {
+  text-decoration: underline;
 }
 #menu-button {
   background-color:  #1DA1F2;
@@ -107,6 +124,7 @@
   .menu a {font-size: 30px;}
   #sidebar {visibility: hidden;}
   .contact a {font-size: 26px;}
+  .copyright {font-size: 10px;}
   .content {margin-left: 0px;}
   #menu-button {visibility: visible;}
 }
