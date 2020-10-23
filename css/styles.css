@@ -7,7 +7,7 @@
   background-color: #1DA1F2;
   position: fixed;
   height: 100%;
-  width: 20vw;
+  width: 20%;
   min-width: 130px;
   z-index: 1;
   top: 0;
@@ -39,7 +39,7 @@
   opacity: .5;
 }
 .content {
-  margin-left: calc(20vw + 40px);
+  margin-left: calc(20% + 40px);
   padding: 20px;
   min-width: 440px;
 }
