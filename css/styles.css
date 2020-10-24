@@ -21,6 +21,7 @@
   cursor: pointer;
   text-align: right;
   font-weight: bold;
+  font-size: 28px;
 }
 .name {
   font-size: 4vw;
