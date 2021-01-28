@@ -18,6 +18,17 @@ main {
   z-index: 1;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out opacity;
+}
+
+a:hover {
+  opacity: 1;
+}
+
 #fbuttons {
   z-index: 2;
   position: fixed;
@@ -39,6 +50,25 @@ main {
 .title {
   font-size: 24px;
   font-weight: bold;
+}
+
+.point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.ml {
+  background-color: rgb(138, 138, 226);
+}
+
+.da {
+  background-color: rgb(157, 223, 157);
+}
+
+.oop {
+  background-color: rgb(230, 101, 101);
 }
 
 @media (max-width: 700px) {
