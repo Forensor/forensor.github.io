@@ -47,6 +47,16 @@ a:hover {
   opacity: 1;
 }
 
+.info {
+  font-size: 10px;
+  background-color: rgb(245, 243, 243);
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .title {
   font-size: 24px;
   font-weight: bold;
