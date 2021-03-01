@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#board {
+    width: 308px;
+    height: 308px;
+    background-image: url('./res/board.svg');
+    background-size: cover;
+    margin: 50px auto;
+    user-select: none;
+    cursor: pointer;
+}
+
+#panel {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+#info {
+    font-weight: bold;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.x {
+    background-image: url('./res/x.svg');
+}
+
+.o {
+    background-image: url('./res/o.svg');
+}

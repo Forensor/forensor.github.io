@@ -1,0 +1,16 @@
+<svg width="92" height="92" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="31" y1="0" x2="31" y2="92" id="svg_7" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="62" y1="0" x2="62" y2="92" id="svg_8" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="0" y1="31" x2="92" y2="31" id="svg_9" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" stroke-width="null" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="0" y1="62" x2="92" y2="62" id="svg_10" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_1" y="90" x="1" opacity="undefined" stroke-width="0" stroke="#000000" fill="#000000">A</text>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_2" y="90" x="32" opacity="undefined" stroke-width="0" stroke="#000000" fill="#000000">B</text>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_3" y="90" x="63" opacity="undefined" stroke-width="0" stroke="#000000" fill="#000000">C</text>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_4" y="67" x="88.69231" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">1</text>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_5" y="36" x="89" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">2</text>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="4" id="svg_12" y="4" x="89" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">3</text>
+ </g>
+
+</svg>
