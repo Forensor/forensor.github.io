@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TAG game browser</title>
+</head>
+<body>
+    <p><a href="https://github.com/Forensor/amazons.js">The Amazons Game</a>. Browse over +40k games.</p>
+    <div style="text-align: center;">
+        <button onclick="prev()">Prev</button>
+        <a href="#" onclick="goToPage()"><div style="display: inline-block;" class="counter">1</div> / 4026</a>
+        <button onclick="next()">Next</button>
+    </div>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <td style="width: 5%;">Id</td>
+                <td>PGN</td>
+                <td style="width: 5%;">Winner</td>
+            </tr>
+        </thead>
+        <tbody id="games">
+        </tbody>
+    </table>
+    <br>
+    <div style="text-align: center;">
+        <button onclick="prev()">Prev</button>
+        <a href="#" onclick="goToPage()"><div style="display: inline-block;" class="counter">1</div> / 4026</a>
+        <button onclick="next()">Next</button>
+    </div>
+    <script src="./js/games.js"></script>
+    <script src="./js/gameBrowser.js"></script>
+</body>
+</html>
