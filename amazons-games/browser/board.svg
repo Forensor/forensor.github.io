@@ -1,0 +1,43 @@
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#f0d9b5" id="canvas_background" height="152" width="152" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect id="svg_2" height="25" width="25" x="50" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect id="svg_3" height="25" width="25" x="100" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="25" x="25" id="svg_7" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="25" x="75" id="svg_8" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="25" x="125" id="svg_9" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect x="0" y="50" id="svg_23" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="50" id="svg_24" height="25" width="25" x="50" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="50" id="svg_25" height="25" width="25" x="100" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="75" x="25" id="svg_26" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="75" x="75" id="svg_27" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="75" x="125" id="svg_28" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect x="0" y="100" id="svg_29" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="100" id="svg_30" height="25" width="25" x="50" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="100" id="svg_31" height="25" width="25" x="100" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="125" x="25" id="svg_32" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="125" x="75" id="svg_33" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <rect y="125" x="125" id="svg_34" height="25" width="25" stroke-width="0" stroke="#000" fill="#b58863"/>
+  <text font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_35" y="149" x="1" stroke-width="0" stroke="#000" fill="#b58863">a</text>
+  <text font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_36" y="149" x="26" stroke-width="0" fill="#f0d9b5">b</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_37" y="149" x="51" stroke-width="0" stroke="#000" fill="#b58863">c</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_38" y="149" x="76" stroke-width="0" fill="#f0d9b5">d</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_39" y="149" x="101" stroke-width="0" stroke="#000" fill="#b58863">e</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_40" y="149" x="126" stroke-width="0" fill="#f0d9b5">f</text>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_41" y="5" x="146" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#b58863">6</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_42" y="30" x="146" stroke-width="0" fill="#f0d9b5">5</text>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_43" y="55" x="146" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#b58863">4</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_44" y="80" x="146" stroke-width="0" fill="#f0d9b5">3</text>
+  <text style="cursor: move;" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_45" y="105" x="146" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#b58863">2</text>
+  <text style="cursor: move;" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Montserrat'" font-size="5" id="svg_46" y="130" x="146" stroke-width="0" fill="#f0d9b5">1</text>
+ </g>
+</svg>

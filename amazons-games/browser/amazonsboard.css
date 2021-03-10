@@ -1,0 +1,52 @@
+#board {
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+}
+
+.amazonsboard {
+    height: 30vw;
+    width: 30vw;
+    background-image: url('board.svg');
+    background-size: cover;
+}
+
+.square {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    display: inline-block;
+    background-size: cover;
+}
+
+.blue {
+    background-image: url('blue.svg');
+}
+
+.red {
+    background-image: url('red.svg');
+}
+
+.fire {
+    background-image: url('fire.svg');
+}
+
+.highlighted {
+    background-color: rgba(155,199,0,0.41);
+}
+
+.selected {
+    background-color: rgba(20,85,30,0.5);
+}
+
+.move-dest {
+    background: radial-gradient(rgba(20,85,30,0.5) 19%, rgba(0,0,0,0) 20%);
+}
+
+.fire-dest {
+    background: radial-gradient(transparent 0%, transparent 79%, rgba(20,85,30,0.5) 80%);
+}
+
+.ghost {
+    opacity: 0.3;
+}
