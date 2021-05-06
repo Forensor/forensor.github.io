@@ -2,26 +2,178 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="./img/svg/icon.svg" type="image/x-icon">
-    <meta name="msapplication-TileColor" content="#1E1E1E">
-    <meta name="msapplication-TileImage" content="./img/svg/icon.svg">
-    <meta name="theme-color" content="#1E1E1E">
-    <title>Álvaro Sánchez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./svg/logo.svg" type="image/x-icon">
+    <title>Alvaro Sanchez</title>
 </head>
 <body>
+    <header>
+        <img id="logo" src="./svg/logo.svg">
+        <button id="resume-button">Resume</button>
+    </header>
     <main>
-        <a href="https://github.com/Forensor" title="Forensor in GitHub"><img src="img/svg/github.svg"></a>
-        <a href="https://linkedin.com/in/a3chess" title="a3chess in LinkedIn"><img src="img/svg/linkedin.svg"></a>
-        <p><a href="https://forensor.github.io/lasca/">Lasca</a></p>
-        <p><a href="https://github.com/Forensor/amazons.js">amazons.js</a></p>
-        <p><a href="https://forensor.github.io/tai/">Tai</a></p>
-        <p><a href="https://github.com/Forensor/DownloadManager">DownloadManager</a></p>
-        <p><a href="https://github.com/Forensor/mal3t">MAL3T</a></p>
+        <section id="who">
+            <h1>Alvaro Sanchez</h1>
+            <h2>Software developer</h2>
+            <br>
+            <h3>Who Am I?</h3>
+            <br>
+            <table>
+                <tr>
+                    <td style="padding-right: 20px;">
+                        <p>
+                            I'm a 21 year old youngster located in Alicante, Spain.
+                            Very passionate about anything related to computer science or problem solving.
+                            <br><br>I have been fascinated by computers for as long as I can remember, so I started to program with my <a href="https://commons.wikimedia.org/wiki/File:HP_PAVILION_a367c_2012_06_18.jpg" target="_blank">father's old computer</a> in C++ when I reached 11.
+                            <br><br>Since then I've been learning and working in some small projects and my interests have shifted towards JavaScript.
+                            <br><br>Technologies:
+                            <br><br>
+                            <table id="technologies">
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>JavaScript</li>
+                                            <li>Java</li>
+                                            <li>SQL Server 17</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Node.js</li>
+                                            <li>Python</li>
+                                            <li>SQLite3</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>TypeScript</li>
+                                            <li>C#</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                    </td>
+                    <td>
+                        <img id="me" src="./img/me.png">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="exp">
+            <h3>Experience</h3>
+            <br>
+            <div id="jobs">
+                <div id="job-list">
+                    <div id="mare-nostrum">Mare Nostrum</div>
+                    <div id="vsn" class="selected-job">VSN</div>
+                </div>
+                <div id="job-displayer">
+                </div>
+            </div>
+        </section>
+        <section id="pro">
+            <h3>Projects</h3>
+            <br>
+            <div id="amazons" class="project">
+                <table>
+                    <tr>
+                        <td class="info-sr">
+                            <div class="project-info">
+                                <h2>amazons.js</h2>
+                                <br><br>
+                                <p>
+                                    amazons.js is a viewless js library that allows you to control/validate 6x6 matches of The Amazons Game.
+                                    <br><br>I also did a <a href="https://twitter.com/Forensor/status/1369414292764844034">game study</a> with <a href="https://forensor.github.io/amazons-games/">thousands of games</a> that can <a href="https://forensor.github.io/amazons-games/browser/">browsed</a>.
+                                    <br><br><a href="https://github.com/Forensor/amazons.js">View on GitHub</a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="img-sr">
+                            <img src="./img/amazons.png" class="project-img">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="tai" class="project">
+                <table>
+                    <tr>
+                        <td class="img-sr">
+                            <img src="./img/tai.png" class="project-img">
+                        </td>
+                        <td class="info-sr">
+                            <div class="project-info">
+                                <h2>TAI</h2>
+                                <br><br>
+                                <p>
+                                    TAI is an AI that plays tic-tac-toe perfectly (she will always draw/win). It uses alpha-beta pruning to get the best move.
+                                    You can play against her <a href="https://forensor.github.io/tai/">here</a>.
+                                    <br><br><a href="https://github.com/Forensor/TAI">View on GitHub</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="mal3t" class="project">
+                <table>
+                    <tr>
+                        <td class="info-sr">
+                            <div class="project-info">
+                                <h2>MAL3T</h2>
+                                <br><br>
+                                <p>
+                                    MAL3T (MAchine Learning Tic-Tac-Toe) is a self-improving AI that stores the moves it makes (whether it leads to win or lose) to choose the best decision.
+                                    It was my first contact with AI/ML world.
+                                    <br><br><a href="https://github.com/Forensor/mal3t">View on GitHub</a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="img-sr">
+                            <img src="./img/mal3t.png" class="project-img">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button id="see-button">See All</button>
+        </section>
+        <section id="con">
+            <h3 style="text-align: center;">Contact</h3>
+            <br>
+            <p style="text-align: center;">
+                I'm currently looking for new opportunities.
+                Whether you have a question or just want to say hi, my inbox is open!
+                You can also check my social media in the links below.
+                <br><br>
+                <p id="social-links">
+                    <a href="https://github.com/Forensor" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40px" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg></a>
+                    <a href="https://twitter.com/Forensor" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40px" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                    </svg></a>
+                    <a href="https://www.linkedin.com/in/a3chess/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40px" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg></a>
+                </p>
+            </p>
+            <br><br>
+            <button id="mail-button">Mail Me</button>
+        </section>
+        <footer>
+            <p style="text-align: center;">Done by <a href="https://github.com/Forensor">Alvaro</a>, an otter fanatic. 🦦2021</p>
+        </footer>
     </main>
+    <div id="anchors">
+        <div id="anchor-who" class="anchor-ele anchor-cur"><a href="#who">W H O</a></div> → <div id="anchor-exp" class="anchor-ele"><a href="#exp">E X P E R I E N C E</a></div> → <div id="anchor-pro" class="anchor-ele"><a href="#pro">P R O J E C T S</a></div> → <div id="anchor-con" class="anchor-ele"><a href="#con">C O N T A C T<</a></div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
