@@ -85,6 +85,10 @@ h5 {
     color: rgb(207, 207, 207);
 }
 /* Classes */
+.project-abs {
+    font-size: 10px;
+    text-align: center;
+}
 .anchor-ele {
     display: inline-block;
     position: relative;
