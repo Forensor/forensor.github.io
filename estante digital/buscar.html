@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Estante digital</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+        <nav>
+            <div id="menu" onclick="mostrarMenu()">
+                <a href="#home"><img src="menu.svg" height="30px"></a>
+            </div>
+            <div id="header">
+                <p style="font-weight: bold;">ED</p>
+            </div>
+            <div id="sidepanel">
+                <ul>
+                    <li onclick="cerrarMenu()" style="background-color: rgb(75, 114, 165); color: black;">CERRAR</li>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li style="background-color: rgb(99, 135, 184);"><a href="buscar.html">BUSCAR LIBRO</a></li>
+                    <li><a href="coleccion.html">MI COLECCIÓN</a></li>
+                </ul>
+            </div>
+            <div id="bg"></div>
+        </nav>
+        <section>
+            <div id="intro">
+                <br><p style="text-align: center; font-size: 30px;">Buscar libros por:</p>
+                <br><p style="text-align: center; font-size: 20px; text-decoration: underline; font-weight: bold;">Autor</p>
+                <br><div style="text-align: center; background-color:  rgb(221, 221, 235); padding: 10px;">
+                    <p><a href="buscar-karen.html">Karen Cleveland</a></p>
+                    <p><a href="buscar-brandon.html">Brandon Sanderson</a></p>
+                </div>
+                <br><p style="text-align: center; font-size: 20px; text-decoration: underline; font-weight: bold;">Género (en mantenimiento)</p>
+                <br><div style="text-align: center; background-color:  rgb(221, 221, 235); padding: 10px;">
+                    <p><a href="buscar-suspense.html">Suspense</a></p>
+                    <p><a href="buscar-fantasia.html">Fantasía</a></p>
+                    <p><a href="buscar-accion.html">Acción</a></p>
+                    <p><a href="buscar-aventura.html">Aventura</a></p>
+                </div>
+                <br><p style="text-align: center; font-size: 25px;"><a href="buscar-todo.html">Mostrar lista de todos los libros</a></p>
+            </div>
+        </section>
+        <script type="text/javascript" src="panel.js"></script>
+    </body>
+</html>
