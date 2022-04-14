@@ -12,9 +12,7 @@ const insertDayWeight = () => {
   }
   document.getElementById('weight-input').value = ''
   const newModel = JSON.parse(localStorage.getItem('jinsei-app')).filter(
-    (dw) => {
-      JSON.stringify(dw) !== JSON.stringify(dayWeight)
-    }
+    (dw) => dw.date !== dayWeight.date
   )
   newModel.push(dayWeight)
   localStorage.setItem('jinsei-app', JSON.stringify(newModel))
