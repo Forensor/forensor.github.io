@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: block;
+    color: #404c7e;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main {
+    margin: 40px 30% 0px 30%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.selected {
+    background-color: #404c7e;
+    color: white;
+}
+
+nav {
+    padding: 0px 0px;
+    font-weight: bold;
+}
+
+#menu td {
+    padding: 0px 10px;
+    transition: all .25s ease;
+}
+
+#menu td:hover {
+    background-color: #404c7e;
+    color: white;
+}
+
+h1,
+h2 {
+    font-weight: lighter;
+}
+
+#title {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    #main {
+        margin: 40px 20% 0px 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+        margin: 40px 5% 0px 5%;
+    }
+}
