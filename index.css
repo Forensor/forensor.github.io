@@ -32,6 +32,7 @@ a {
 nav {
     padding: 0px 0px;
     font-weight: bold;
+    overflow: auto;
 }
 
 #menu td {
